@@ -41,7 +41,24 @@ This specification is a living document that is by no means complete or free of 
 
 ## Workflow diagram
 
+
 ## Page by page mockups with very detailed descriptions
+
+### Anonymous user recording workflow
+- New recording
+- Recording in progress
+- Collection info
+- Browse recording
+
+### Logged in user recording workflow
+- New recording
+- Recording in progress
+- Collection info
+- Browse my own recording 
+- Browse someone else's recording
+
+### Logged in user archive management
+- Archive info
 
 ## Table of canonical page names and their paths
 
