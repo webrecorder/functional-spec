@@ -24,7 +24,7 @@ This specification is a living document that is by no means complete or free of 
 1. Glossary
 1. Workflow diagram
 1. Page-by-page mockups with very detailed descriptions
-1. Table of paths and pages
+1. Table of canonical page names and their paths
 1. Outstanding issues and future work
 
 
@@ -43,6 +43,42 @@ This specification is a living document that is by no means complete or free of 
 
 ## Page by page mockups with very detailed descriptions
 
-## Table of paths and pages
+## Table of canonical page names and their paths
+
+Canonical name | User | Path
+---------------|------|----------
+New recording | anon |   https://webrecorder.io
+New recording | registered | 
+| | |
+| | |
+Recording in progress | anon | https://webrecorder.io/anonymous/recording-name/record//http://example.com/
+Recording in progress | registered | https://webrecorder.io/user/coll/recording-name/record//http://example.com/
+| | |
+| | |
+Browse recording | anon | https://webrecorder.io/anonymous/recording-name//http://example.com/
+Browse recording | registered | https://webrecorder.io/user/coll/recording-name/http://example.com/
+| | |
+| | |
+Browse most recent page version | anon | https://webrecorder.io/anonymous/http://example.com/
+Browse most recent page version  | registered | https://webrecorder.io/user/coll/http://example.com/
+Browse page version closest to date | anon | https://webrecorder.io/anonymous/20160101000000/http://example.com/
+Browse page version closest to date | registered | https://webrecorder.io/user/coll/20160101000000/http://example.com/
+| | |
+| | |
+Collection info |  anon |  https://webrecorder.io/anonymous
+Collection info | registered | https://webrecorder.io/user/coll/
+Collection info for a recording | anon | https://webrecorder.io/anonymous/recording-name  
+Collection info for a recording | registered | https://webrecorder.io/user/coll/recording-name 
+| | |
+| | |
+Archive info | registered | https://webrecorder.io/user
+Account settings | registered | https://webrecorder.io/user/_settings
+| | |
+| | |
+Live preview | debug | https://webrecorder.io/live/http://example.com/
 
 ## Outstanding issues and future work
+
+- Create an interface where you can get a time based list of all recordings in a collection that contain a page.  The path to this functionality would be https://webrecorder.io/anonymous/*/http://example.com/ for anonymous users and https://webrecorder.io/user/coll/*/http://example.com/ for registered users.
+- Create an interface which shows a merged view of all recordings in a collection.  The path to this functionality would be availabe at https://webrecorder.io/user/coll but this is already the collection index path soooooo ???
+- 'Collection info for a recording' will become 'Recording info', for drilling down to a specific recording
