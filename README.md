@@ -84,8 +84,8 @@ Browse page version closest to date | registered | https://webrecorder.io/user/c
 | | |
 Collection info |  anon |  https://webrecorder.io/anonymous
 Collection info | registered | https://webrecorder.io/user/coll/
-Collection info for a recording | anon | https://webrecorder.io/anonymous/recording-name  
-Collection info for a recording | registered | https://webrecorder.io/user/coll/recording-name 
+Recording info | anon | https://webrecorder.io/anonymous/recording-name  
+Recording info | registered | https://webrecorder.io/user/coll/recording-name 
 | | |
 | | |
 Archive info | registered | https://webrecorder.io/user
