@@ -97,5 +97,3 @@ Live preview | debug | https://webrecorder.io/live/http://example.com/
 ## Outstanding issues and future work
 
 - Create an interface where you can get a time based list of all recordings in a collection that contain a page.  The path to this functionality would be https://webrecorder.io/anonymous/*/http://example.com/ for anonymous users and https://webrecorder.io/user/coll/*/http://example.com/ for registered users.
-- Create an interface which shows a merged view of all recordings in a collection.  The path to this functionality would be availabe at https://webrecorder.io/user/coll but this is already the collection index path soooooo ???
-- 'Collection info for a recording' will become 'Recording info', for drilling down to a specific recording
