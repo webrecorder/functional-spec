@@ -36,6 +36,7 @@ This specification is a living document that is by no means complete or free of 
 - *collection*
 - *archive*
 - *page*
+- *version*
 - *to record*
 - *to browse a recording*
 
@@ -45,10 +46,14 @@ This specification is a living document that is by no means complete or free of 
 ## Page by page mockups with very detailed descriptions
 
 ### Anonymous user recording workflow
-- New recording
-- Recording in progress
-- Collection info
-- Browse recording
+1. New recording
+
+##### Valid recording names
+    we won't allow recording names of that are all digits or end in two letters followed by underscore
+
+1. Recording in progress
+1. Collection info
+1. Browse recording
 
 ### Logged in user recording workflow
 - New recording
