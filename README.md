@@ -25,6 +25,7 @@ This specification is a living document that is by no means complete or free of 
 1. Workflow diagram
 1. Page-by-page mockups with very detailed descriptions
 1. Table of canonical page names and their paths
+1. Roles and permissions
 1. Outstanding issues and future work
 
 
@@ -99,6 +100,7 @@ Account settings | registered | https://webrecorder.io/user/_settings
 | | |
 Live preview | debug | https://webrecorder.io/live/http://example.com/
 
+## Roles and permissions
+
 ## Outstanding issues and future work
 
-- Create an interface where you can get a time based list of all recordings in a collection that contain a page.  The path to this functionality would be https://webrecorder.io/anonymous/*/http://example.com/ for anonymous users and https://webrecorder.io/user/coll/*/http://example.com/ for registered users.
